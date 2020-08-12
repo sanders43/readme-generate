@@ -1,12 +1,17 @@
 // function to generate markdown for README
 const generateMarkdown = data => {
-  return `# <p>${data.title}<p>
+  return `# ${data.title}
 
-## ${data.purpose}
-## ${data.installation}
-## ${data.usage}
-## ${data.credits}
-## ${data .liscense}
+## Purpose/Goal
+### ${data.purpose} 
+## Installation
+### ${data.installation}
+## Usage
+### ${data.usage}
+## Credits
+### ${data.credits}
+## License
+### ${data .license}
 
 
 `;
